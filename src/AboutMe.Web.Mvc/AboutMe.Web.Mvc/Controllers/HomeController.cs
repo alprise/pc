@@ -8,7 +8,12 @@ namespace AboutMe.Web.Mvc.Controllers
 {
     public class HomeController : Controller
     {
-public ActionResult CV()
+        public ActionResult Demos()
+        {
+            return View();
+        }
+
+        public ActionResult CV()
         {
             return View();
         }
